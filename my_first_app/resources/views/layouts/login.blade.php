@@ -29,7 +29,7 @@
             <!-- <div class="container mt-5"> -->
     <div class="row justify-content-center mt-5">
         <div class="col-md-4">
-            <div class="card" style="border: 2px solid #333333; ">
+            <div class="card mt-0" style="border: 2px solid #333333; ">
             <h3 class ="card-header text-center">Login</h3>
             <!-- <div class="card-body"> -->
         <form method="POST" action="{{route('login.post')}}" style=" background-color: #ADD8E6;  padding: 20px;
@@ -58,6 +58,10 @@
     
 <br/>  
 <button type="submit" class="btn-btn" >Login</button> 
+<button><a href="{{route('register.post')}}" class="btn-btn">Register</a></button>
+
+<!-- <button type="submit" class="btn-btn ml-3"  onClick="{{route('register.post')}}">Register</button>  -->
+
 </form>  
 <!-- </div> -->
 </div>
